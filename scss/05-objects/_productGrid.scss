@@ -1,0 +1,15 @@
+.o_productGrid {
+  width: 71%;
+  align-items: end;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 99px auto 10px auto;
+  gap: 32px;
+  justify-items: center;
+  @media screen and (max-width: 1440px) {
+    width: 80%;
+  }
+  @media screen and (max-width: 1232px) {
+    width: 90%;
+  }
+}

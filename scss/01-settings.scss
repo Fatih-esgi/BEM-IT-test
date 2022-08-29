@@ -1,0 +1,33 @@
+// TYPOGRAPHY
+@font-face {
+  font-family: PlusJakartaSans;
+  src: url(https://morent.fat-e.ch/wp-content/themes/morent/assets/fonts/PlusJakartaSans-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: PlusJakartaSans;
+  src: url(https://morent.fat-e.ch/wp-content/themes/morent/assets/fonts/PlusJakartaSans-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: PlusJakartaSans;
+  src: url(https://morent.fat-e.ch/wp-content/themes/morent/assets/fonts/PlusJakartaSans-Medium.ttf);
+  font-weight: 500;
+}
+
+// COLORS
+:root {
+  --background: #f6f7f9;
+  --border: rgba(195, 212, 233, 0.4);
+  --White: #ffffff;
+  --Primary: #1a202c;
+  --Secondary: #90a3bf;
+  --InputColor: #596780;
+  --GradientWhite: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 100%
+  );
+  --Blue: #3563e9;
+  --lightGray: #13131399;
+}

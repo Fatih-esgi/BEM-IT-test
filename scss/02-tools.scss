@@ -1,0 +1,11 @@
+@mixin fontSizeBold {
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+@mixin fontSizeSemiBold {
+  font-size: 1.1428571428571428em;
+  font-weight: 500;
+}
+@mixin fontSizeMedium {
+  font-weight: 400;
+}
